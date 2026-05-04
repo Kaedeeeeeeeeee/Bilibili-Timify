@@ -1,12 +1,20 @@
 {
   "manifest_version": 3,
   "name": "Tim 占领 B 站",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "把 B 站封面里所有的人脸都替换成 Tim 的脸（自动缩放、旋转、镜像对齐）",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Tim 占领 B 站"
   },
   "host_permissions": [
     "*://*.bilibili.com/*",
